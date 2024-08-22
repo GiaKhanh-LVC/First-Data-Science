@@ -19,6 +19,8 @@ values=[
     data.loc[row, 'thal'],      # Thalassemia (3 = normal; 6 = fixed defect; 7 = reversible defect)
     data.loc[row, 'target']     # Target variable (1 = heart disease; 0 = no heart disease)
 ]
-plt.bar([data["target"],"no heart disease"], [data.age], color='skyblue', edgecolor='black')
+plt.bar(categories, values, color='skyblue', edgecolor='black')
 plt.title("Heart Disease Dataset")
+plt.xlabel("Categories")
+plt.ylabel("Values")
 plt.show()
