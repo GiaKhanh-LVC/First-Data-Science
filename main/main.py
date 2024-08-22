@@ -13,7 +13,7 @@ values=[
     data.loc[row, 'restecg'],   # Resting electrocardiographic results
     data.loc[row, 'thalach'],   # Maximum heart rate achieved
     data.loc[row, 'exang'],     # Exercise induced angina (1 = yes; 0 = no)
-    data.loc[row, 'oldpeak'],   # ST depression induced by exercise relative to rest
+    data.loc[row, 'oldpeak'],   # ST depression ingitduced by exercise relative to rest
     data.loc[row, 'slope'],     # Slope of the peak exercise ST segment
     data.loc[row, 'ca'],        # Number of major vessels (0-3) colored by fluoroscopy
     data.loc[row, 'thal'],      # Thalassemia (3 = normal; 6 = fixed defect; 7 = reversible defect)
